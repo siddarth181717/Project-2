@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at top, #1a002b, #000);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #c77dff;
+}
+
+.subtitle {
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#startBtn {
+    background: #4caf50;
+    color: #fff;
+}
+
+#stopBtn {
+    background: #f44336;
+    color: #fff;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#transcript {
+    background: #000;
+    padding: 15px;
+    border-radius: 6px;
+    min-height: 80px;
+    color: #00ffcc;
+    font-family: monospace;
+    overflow-y: auto;
+}
+
+.alert {
+    background: #ff1744;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.progress {
+    background: #333;
+    height: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#progressBar {
+    width: 10%;
+    height: 100%;
+    background: linear-gradient(to right, #00e5ff, #ff1744);
+}

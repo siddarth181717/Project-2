@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Call Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📞 AI-Powered Call Analyzer</h1>
+    <p class="subtitle">Real-time spam & fraud detection</p>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button id="startBtn">▶ Start Analysis</button>
+        <button id="stopBtn" disabled>⏹ Stop</button>
+    </div>
+
+    <!-- Alert -->
+    <div id="alertBox" class="alert hidden">
+        ⚠️ Possible Scam Detected!
+    </div>
+
+    <!-- Live Transcription -->
+    <div class="card">
+        <h3>Live Call Transcription</h3>
+        <div id="transcript">
+            Waiting for audio input...
+        </div>
+    </div>
+
+    <!-- Analysis -->
+    <div class="card">
+        <h3>AI Analysis</h3>
+        <p><strong>Risk Level:</strong> <span id="risk">Low</span></p>
+        <p><strong>Scam Probability:</strong></p>
+        <div class="progress">
+            <div id="progressBar"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
